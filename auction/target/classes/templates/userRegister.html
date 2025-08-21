@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Please register</title>
+    <!--This register form will have basic UI things, using css-->
+</head>
+<body>
+    <h3>Name and Password</h3>
+    <form action="/postRegister" method="post">
+        <label for="name">Username:</label>
+        <input type="text" id="name" name="name" required> <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required> <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
